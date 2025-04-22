@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los hijos se acomoden en varias líneas */
+    width: 80%;  /* El contenedor ocupará el 80% del ancho de la página */
+    height: 80%; /* El contenedor ocupará el 80% de la altura */
+  }
+  
+  .cuadrado {
+    width: 50%;  /* Cada cuadrado ocupará el 50% del ancho del contenedor */
+    height: 50%; /* Cada cuadrado ocupará el 50% del alto del contenedor */
+    background-color: lightblue;
+    margin: 10px;
+  }
